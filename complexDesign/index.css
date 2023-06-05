@@ -7,7 +7,7 @@ body {
 .banner {
   background-color: rgb(30, 30, 30);
   width: initial;
-  padding: 20px 40px;
+  padding: 20px 20px 60px 20px;
   position: relative;
 }
 .banner__nav {
@@ -67,22 +67,20 @@ body {
 }
 
 footer {
-  display: flex;
-  justify-items: center;
+  vertical-align: bottom;
 }
 footer img {
-  border-radius: 25px;
+  border-radius: 50px;
   width: 50px;
   height: 50px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 footer b {
-  margin-top: 10px;
+  margin-right: 20px;
 }
 footer span {
-  margin-left: 10px;
-  margin-top: 10px;
   color: white;
+  margin-right: 20px;
 }
 footer .span1 {
   background-color: rgb(143, 213, 216);
